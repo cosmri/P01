@@ -76,5 +76,22 @@ public class CalculatorTest {
 		
 		int expected = 4000;
 		assertEquals(actual, expected);
+		
+	}
+	
+	@Test
+	public final void testAddErrorCase() {
+		int a = -1;
+		int b = -1;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.add(a,b);
+		assertEquals(-2, actual);
+		
+	}}
+	
+	
 
-}}
+
+
+
