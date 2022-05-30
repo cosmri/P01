@@ -80,7 +80,7 @@ public class CalculatorTest {
 	}
 	
 	@Test
-	public final void testAddErrorCase() {
+	public final void testAddBoundaryCase() {
 		int a = -1;
 		int b = -1;
 		
@@ -90,7 +90,7 @@ public class CalculatorTest {
 		
 	}}
 	
-	
+	//can add more boundary Junits
 
 
 
